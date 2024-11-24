@@ -40,15 +40,14 @@ class WelcomePage extends StatelessWidget {
                 ),
                 const SizedBox(height: 16),
                 Text(
-                  'A dedicated platform to connect skilled workers with employers in agriculture. '
-                  'Find your perfect job match, grow your career, and support a sustainable future.',
+                  'A smart platform to help farmers predict crop yields, optimize harvests, and make informed decisions for a sustainable future.',
                   textAlign: TextAlign.center,
                   style: TextStyle(fontSize: 16, color: Colors.grey[700]),
                 ),
               ],
             ),
             Row(
-              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 ElevatedButton(
                   style: ElevatedButton.styleFrom(
@@ -59,19 +58,19 @@ class WelcomePage extends StatelessWidget {
                   onPressed: () {
                     Navigator.pushNamed(context, '/jobSearch');
                   },
-                  child: const Text('SEARCH JOBS'),
+                  child: const Text('MAKE PREDICTIONS'),
                 ),
                 const SizedBox(height: 8),
                 // TextButton with custom text color
-                TextButton(
-                  style: TextButton.styleFrom(
-                    backgroundColor: const Color.fromARGB(255, 241, 237, 237),
-                    padding: const EdgeInsets.symmetric(vertical:14, horizontal: 28),
-                    foregroundColor: Colors.green,
-                  ),
-                  onPressed: () {},
-                  child: const Text('VIEWED JOBS'),
-                ),
+                // TextButton(
+                //   style: TextButton.styleFrom(
+                //     backgroundColor: const Color.fromARGB(255, 241, 237, 237),
+                //     padding: const EdgeInsets.symmetric(vertical:14, horizontal: 28),
+                //     foregroundColor: Colors.green,
+                //   ),
+                //   onPressed: () {},
+                //   child: const Text('VIEWED JOBS'),
+                // ),
               ],
             )
           ],
