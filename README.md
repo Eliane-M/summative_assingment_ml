@@ -33,14 +33,14 @@ Expected answer is: "predicted_yield": "35.67 MT/HA"
 
 # YOUTUBE DEMO OF THE MOBILE APP
 Below is a link of a 2-minute video showing how my prediction app works
-[Link Text](https://youtu.be/35IHir-O0CQ)
+[Youtube Video](https://youtu.be/35IHir-O0CQ)
 
 
 # How To Run The App
 To run the app follow the following instructions
 1. install Flutter and Dart
 2. clone the repository and enter the frontend repo using:
-   git clone [Link Text](https://github.com/your-username/your-repo.git)
+   git clone [git-file url](https://github.com/your-username/your-repo.git)
    cd frontend
 3. run the command
    flutter pub get
