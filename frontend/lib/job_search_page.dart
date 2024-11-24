@@ -64,7 +64,7 @@ class JobSearchPage extends StatelessWidget {
                     ),
                   ),
                   const SizedBox(height: 12),
-                  Row(
+                  Column(
                     children: [
                       Expanded(
                         child: Column(
